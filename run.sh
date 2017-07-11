@@ -1,5 +1,5 @@
 #!/bin/bash
-# Ethereum mining for Microsoft Azure
+# Ethereum mining for Ubuntu 16.04 LTS
 # Original script by Ben Thompson
 # Modified and adapted by JP La Torre
 echo -e "\e[31;43m***** Installing Drivers and Prerequisites *****\e[0m"
@@ -23,6 +23,7 @@ cmake -DBUNDLE=cudaminer ..
 make –j6
 cd
 sudo rm -rf cpp-ethereum/
+# I know this is weird but it's the only thing that worked consistently
 git clone https://github.com/Genoil/cpp-ethereum
 cd cpp-ethereum/
 mkdir build
