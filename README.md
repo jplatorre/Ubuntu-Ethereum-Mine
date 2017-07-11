@@ -7,8 +7,8 @@ Adapted for Ubuntu 16.04 base image
 
 Usage:
 
-git clone https://github.com/jplatorre/Ubuntu-Ethereum-Mine
+$ git clone https://github.com/jplatorre/Ubuntu-Ethereum-Mine
 
-cd Ubuntu-Ethereum-Mine/
+$ cd Ubuntu-Ethereum-Mine/
 
-sudo chmod +x run.sh; sudo ./run.sh
+$ sudo chmod +x run.sh; sudo ./run.sh
